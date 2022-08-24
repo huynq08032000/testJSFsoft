@@ -2,7 +2,7 @@ function findAllHobbyists(hobby, hobbies) {
     const keys = Object.keys(hobbies)
     let rs = []
     keys.forEach((el,index)=>{
-      if (hobbies[el].includes(hobby)) rs = rs.push(el)
+      if (hobbies[el].includes(hobby)) rs.push(el)
     })
     return rs;
   }
